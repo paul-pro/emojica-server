@@ -1,0 +1,32 @@
+{
+  "name": "emojica-server",
+  "version": "0.9.0",
+  "description": "This is the example of server for Emojica component",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paul-pro/emojica.git"
+  },
+  "keywords": [
+    "emoji",
+    "reactions",
+    "buttons",
+    "poll"
+  ],
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js localhost 8080"
+  },
+  "dependencies": {
+    "better-sqlite3": "^5.4.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "author": {
+    "name": "Pavel Prokudin",
+    "email": "paul.pro@ya.ru"
+  },
+  "license": "MIT"
+}
